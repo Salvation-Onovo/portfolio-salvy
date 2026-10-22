@@ -1,0 +1,50 @@
+.project-swiper {
+  padding-bottom: 35px !important;
+}
+
+/* Pagination */
+.project-swiper .swiper-pagination {
+  bottom: 0 !important;
+}
+
+.project-swiper .swiper-pagination-bullet {
+  width: 40px;
+  height: 3px;
+  margin: 0 4px;
+  padding: 0;
+  border-radius: 0;
+  opacity: 1;
+  background: var(--slate);
+  transition: background 0.3s ease, opacity 0.3s ease;
+}
+
+/* Active bullet */
+.project-swiper .swiper-pagination-bullet-active {
+  width: 40px;
+  background: var(--green-bright);
+}
+
+/* Navigation buttons ONLY */
+.project-swiper .swiper-button-prev,
+.project-swiper .swiper-button-next {
+  color: var(--lightest-slate);
+  opacity: 0.7;
+  transition: color 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
+  width: 25px;
+  height: 25px;
+  margin: 0 30px;
+}
+
+/* Navigation hover ONLY */
+.project-swiper .swiper-button-prev:hover,
+.project-swiper .swiper-button-next:hover {
+  color: var(--green-bright);
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+/* Arrow size */
+.project-swiper .swiper-button-prev::after,
+.project-swiper .swiper-button-next::after {
+  font-size: 24px;
+}
